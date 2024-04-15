@@ -13,3 +13,9 @@ OA_SILENCE_TIME = ["Tue:22-23", "Thu:22-23"]
 SILENCE_DICT = {
     "oa": OA_SILENCE_TIME,
 }
+
+# 紧急维护时间
+ALL_SILENCE_TIME = []
+
+# 忽略告警
+IGNORE_ALERT_NAME = ["TargetDown", ""]
